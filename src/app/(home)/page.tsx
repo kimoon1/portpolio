@@ -11,7 +11,6 @@ export const metadata = {
 
 export default async function HomePage() {
   
-  return <main>
-    <h1>home</h1>
-  </main>
+  return <h1>home</h1>
+  
 }

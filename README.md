@@ -1,5 +1,24 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+
+```bash
+/project-root
+  /public            # 정적 파일 (이미지, 폰트 등)
+  /src
+    /components      # 재사용 가능한 UI 컴포넌트
+      /common        # 공통적으로 쓰이는 작은 단위 컴포넌트 (Button, Input 등)
+      /layout        # 레이아웃 관련 컴포넌트 (Header, Footer 등)
+    /styles          # 전역 및 테마 스타일
+      /themes        # 테마와 관련된 SCSS 파일 (변수, 믹스인)
+      /globals.scss  # 전역 스타일
+    /pages           # Next.js 페이지 (라우팅 자동 설정)
+    /utils           # 유틸리티 함수, 헬퍼 함수
+    /hooks           # 커스텀 훅 (재사용 가능한 로직)
+    /services        # API 통신 관련 파일 (Node.js, Axios 등을 이용)
+  next.config.js      # Next.js 설정
+  tsconfig.json       # TypeScript 설정 (Next.js에서 TypeScript 사용 시)
+```
+
 ## Getting Started
 
 First, run the development server:
