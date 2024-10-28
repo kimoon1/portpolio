@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 
 import "../styles/globals.scss";
+import "@/src/styles/reset.css"
 import Layout from "../components/layout/Layout";
 
 
@@ -19,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ko">
-      <body>
+      <body className={`body`}>
         <Layout>
           {children}
         </Layout>
