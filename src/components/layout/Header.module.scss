@@ -1,7 +1,33 @@
 @import 'globals';
 
 .header {
-  color: white;
-  padding: 20px;
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  
+  padding: 0 2rem;
+  border: 1px solid #27272a0d;
+  border-radius: 999px;
+  font-size: .9rem;
+  transform: translate(-50%, 0);
+  box-shadow: 3px 3px 10px #c7c7c75d;
+}
+
+.menu {
+  display: flex;
+  gap: 1rem;
+}
+
+.menu-item {
+  width: 4.5rem;
+  padding: .5rem 0;
+  border-bottom: 1px solid transparent;
+  font-weight: 400;
+  transition: font-weight 0.3s ease;
   text-align: center;
+}
+
+.menu-item:hover {
+  font-weight: bold;
+  border-bottom: 1px solid #27272a;
 }
