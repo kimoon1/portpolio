@@ -1,3 +1,4 @@
+import InfoSection from "@/src/components/home/InfoSection"
 
 export const metadata = {
   title: 'Home',
@@ -10,7 +11,11 @@ export const metadata = {
 
 
 export default async function HomePage() {
-  
-  return <h1>home</h1>
-  
+
+  return (
+    <>
+      <InfoSection />
+    </>
+  )
+
 }
