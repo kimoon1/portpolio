@@ -2,9 +2,6 @@ import type { Metadata } from "next";
 
 import "../styles/globals.scss";
 import "@/src/styles/reset.css"
-import Layout from "../components/layout/Layout";
-import Header from "../components/layout/Header";
-import Footer from "../components/layout/Footer";
 
 
 export const metadata: Metadata = {
@@ -23,11 +20,7 @@ export default function RootLayout({
   return (
     <html lang="ko">
       <body className={`body`}>
-        <Header />
-        <Layout>
           {children}
-        </Layout>
-        <Footer />
       </body>
     </html>
   );
