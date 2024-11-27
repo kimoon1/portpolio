@@ -11,14 +11,17 @@
   }
 
   .img-wrap {
+    position: absolute;
     width: 100%;
     height: 100%;
+    z-index: -1;
     img {
       width: 100%;
       height: 100%;
       object-fit: cover;
       object-position: top center;
     }
+
   }
 
   .swiper-button-prev, 
@@ -33,7 +36,7 @@
     z-index: 10;
     cursor: pointer;
     img {
-      background: rgba(14, 16, 17, 0.2);
+      background: rgba(14, 16, 17, 0.4);
     }
     
     &:hover {
@@ -43,13 +46,93 @@
     }
     &.swiper-button-disabled {
       pointer-events: none;
+      opacity: .3;
     }
   }
   .swiper-button-prev {
-    left: 40px;
+    left: 30px;
   }
   .swiper-button-next {
-    right: 40px;
+    right: 30px;
   }
+
+  .swiper-pagination {
+    position: absolute;
+    left: 50%;
+    bottom: 30px;
+    width: fit-content;
+    padding: 8px 12px;
+    border-radius: 100px;
+    background-color: rgba(0, 0, 0, 0.2);
+    transform: translate(-50%, 0);
+    z-index: 10;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+  }
+  .swiper-pagination-bullet {
+    width: 9px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: .5;
+    background-color: #e6e6e6;
+  }
+  .swiper-pagination-bullet-active {
+    opacity: 1;
+    
+    background: #fff;
+  }
+  
+
+}
+
+.project-link {
+  position: absolute;
+  left: 30px;
+  bottom: 30px;
+  padding: 6px 12px;
+  font-size: 13px;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 5px;
+  width: fit-content;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.name-box {
+  position: absolute;
+  bottom: 10px;
+  right: 50.5%;
+  width: 100px;
+  height: 1;
+  padding: 5px 20px;
+  font-size: 12px;
+  font-weight: bold;
+  background: #fff;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  display: flex;
+  z-index: 1;
+}
+
+.bottom-right-img {
+  position: absolute;
+  bottom: 26px;
+  right: 0;
+  z-index: 1;
+  transform: rotate(180deg);
+
+}
+.bottom-left-img {
+  position: absolute;
+  bottom: 0px;
+  right: 96px;
+  z-index: 1;
+  transform: rotate(180deg);
 
 }

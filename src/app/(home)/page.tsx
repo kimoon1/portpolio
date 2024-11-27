@@ -1,7 +1,7 @@
 import ProjectThumb from "@/src/components/home/ProjectThumb"
 
 export const metadata = {
-  title: 'Home',
+  title: '포트폴리오',
 
 }
 
