@@ -57,11 +57,11 @@ const SwiperComponent = () => {
         <Image width={40} height={40} alt='화살표' src={'/home/ProjectThumb/leftArrow.svg'} />
       </div>
       <div className={`${styles['swiper-pagination']}`}></div>
-      <Image className={`${styles['bottom-right-img']}`} src={'/icon/round.svg'} width={20} height={20} alt='라운드'/>
-      <Image className={`${styles['bottom-left-img']}`} src={'/icon/round.svg'} width={20} height={20} alt='라운드'/>
+      <Image className={`${styles['bottom-right-img']}`} src={'/icon/round.svg'} width={20} height={20} alt='라운드' />
+      <Image className={`${styles['bottom-left-img']}`} src={'/icon/round.svg'} width={20} height={20} alt='라운드' />
     </Swiper>
     <div className={`${styles['name-box']}`}>KIMOON</div>
-    
+
   </>
   );
 };
