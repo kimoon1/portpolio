@@ -15,6 +15,7 @@ export default async function HomePage() {
   return (
     <>
       <ProjectThumb />
+      <div style={{height : '500vh'}}></div>
     </>
   )
 

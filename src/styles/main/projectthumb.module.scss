@@ -1,6 +1,8 @@
 /* CSS Code */
 .swiper {
-  position: relative;
+  position: sticky;
+  top: 12px;
+  left: 0;
   width: calc(50% - 10px);
   height: calc(100vh - 24px);
   
@@ -105,7 +107,7 @@
 }
 
 .name-box {
-  position: absolute;
+  position: fixed;
   bottom: 10px;
   right: 50.5%;
   width: 100px;

@@ -49,6 +49,10 @@ const SwiperComponent = () => {
         <div className={`${styles['img-warp']}`}>
           <Image width={1536} height={1536} alt='test' src={'/home/ProjectThumb/test02.jpg'} />
         </div>
+        <a className={`${styles['project-link']}`} href='/'>
+          <span>View Project</span>
+          <span><Image width={18} height={18} src={'/home/ProjectThumb/linkArrow.svg'} alt='링크 연결' /></span>
+        </a>
       </SwiperSlide>
       <div className={`${styles['swiper-button-next']}`}>
         <Image width={40} height={40} alt='화살표' src={'/home/ProjectThumb/rightArrow.svg'} />

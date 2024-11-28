@@ -20,9 +20,10 @@ export default function Header() {
             <Link href={'/'} data-text="Etc">Etc</Link>
           </li>
         </ul>
+        <Image className={`${styles['top-right-img']}`} src={'/icon/round.svg'} width={20} height={20} alt='라운드' />
+        <Image className={`${styles['bottom-left-img']}`} src={'/icon/round.svg'} width={24} height={24} alt='라운드' />
       </header>
-      <Image className={`${styles['top-right-img']}`} src={'/icon/round.svg'} width={20} height={20} alt='라운드' />
-      <Image className={`${styles['bottom-left-img']}`} src={'/icon/round.svg'} width={24} height={24} alt='라운드' />
+
     </>
   );
 }
