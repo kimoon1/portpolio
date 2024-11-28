@@ -1,3 +1,4 @@
+import InfoSection from "@/src/components/home/InfoSection"
 import ProjectThumb from "@/src/components/home/ProjectThumb"
 
 export const metadata = {
@@ -13,10 +14,10 @@ export const metadata = {
 export default async function HomePage() {
 
   return (
-    <>
+    <div className="flex gap-2.5">
       <ProjectThumb />
-      <div style={{height : '500vh'}}></div>
-    </>
+      <InfoSection />
+    </div>
   )
 
 }
