@@ -38,7 +38,7 @@ const SwiperComponent = () => {
     >
       <SwiperSlide>
         <div className={`${styles['img-wrap']}`}>
-          <Image width={1536} height={1536} alt='test' src={'/home/ProjectThumb/test01.jpg'} />
+          <Image width={1536} height={1536} alt='test' src={'/home/ProjectThumb/exam01.jfif'} />
         </div>
         <a className={`${styles['project-link']}`} href='/'>
           <span>View Project</span>
@@ -47,7 +47,7 @@ const SwiperComponent = () => {
       </SwiperSlide>
       <SwiperSlide>
         <div className={`${styles['img-warp']}`}>
-          <Image width={1536} height={1536} alt='test' src={'/home/ProjectThumb/test02.jpg'} />
+          <Image width={1536} height={1536} alt='test' src={'/home/ProjectThumb/exam02.png'} />
         </div>
         <a className={`${styles['project-link']}`} href='/'>
           <span>View Project</span>
