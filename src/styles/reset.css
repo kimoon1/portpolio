@@ -1,5 +1,6 @@
 /* 최신 트렌드를 반영한 reset.css */
 @import './font/pretendard.css';
+
 /* 모든 엘리먼트의 box-sizing을 border-box로 설정 */
 *,
 *::before,
