@@ -38,7 +38,7 @@ const SwiperComponent = () => {
     >
       <SwiperSlide>
         <div className={`${styles['img-wrap']}`}>
-          <Image width={1536} height={1536} alt='test' src={'/home/ProjectThumb/exam01.jfif'} />
+          <Image width={1536} height={1536} alt='test' src={'/home/ProjectThumb/exam01.png'} />
         </div>
         <a className={`${styles['project-link']}`} href='/'>
           <span>View Project</span>

@@ -24,7 +24,7 @@ export default function InfoSection() {
         </div>
       </div>
       <div className={`${styles["project-box"]}`}>
-        <Image className="w-full h-full object-cover" width={465} height={600} src={'/home/ProjectThumb/exam01.jfif'} alt="테스트 이미지"/>
+        <Image className="w-full h-full object-cover" width={465} height={600} src={'/home/ProjectThumb/exam01.png'} alt="테스트 이미지"/>
         <div className={`${styles["category"]}`}>SHOP</div>
         <Image className={`${styles['round-top']}`} src={'/icon/round.svg'} width={20} height={20} alt='라운드' />
         <Image className={`${styles['round-bottom']}`} src={'/icon/round.svg'} width={20} height={20} alt='라운드' />
