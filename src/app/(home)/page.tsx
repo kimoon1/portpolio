@@ -16,7 +16,11 @@ export default async function HomePage() {
   return (
     <div className="flex gap-2.5">
       <ProjectThumb />
-      <InfoSection />
+      <div className="flex flex-col w-1/2">
+        <InfoSection />
+        <footer>ddodo</footer>
+      </div>
+
     </div>
   )
 

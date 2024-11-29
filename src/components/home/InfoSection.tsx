@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function InfoSection() {
   return (
-    <article className={`${styles['article']}`}>
+    <article className={`${styles['article']} w-1\/2`}>
       <div className={`${styles["profile-info"]} flex flex-col justify-between gap-5 `}>
         <div className={`${styles["name-box"]} flex gap-5 items-center`}>
           <div className={`${styles["img-wrap"]} aspect-square overflow-hidden rounded-full`}>
