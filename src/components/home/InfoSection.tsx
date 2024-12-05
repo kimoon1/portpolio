@@ -13,7 +13,7 @@ export default function InfoSection() {
           </div>
           <div className="name-text">
             <h1>Lee Kimoon</h1>
-            <div>Front Developer</div>
+            <div>Frontend Developer</div>
           </div>
         </div>
         <div className="self-introduction-box">
