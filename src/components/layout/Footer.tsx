@@ -54,7 +54,7 @@ export default function Footer() {
           </ul>
         </div>
       </div>
-      <div>© 2024. KIMOON. All rights reserved.</div>
+      <p className={`${styles['copyright']}`}>© 2024.<strong> KIMOON</strong>. All rights reserved.</p>
     </footer>
   );
 }
